@@ -3,7 +3,7 @@
 }
 nav {
 	position: fixed;
-	background-color: gray;
+	border: 5px solid black;
 }
 nav ul li {
 	display: inline;
@@ -11,16 +11,14 @@ nav ul li {
 }
 
 .content {
-	background-color: orange;
-	border: 5px solid red;
-	background-color: pink;
+	border: 5px solid black;
+
 
 }
 
 .main_section {
 	border: 1px solid black;
 	margin-top: 100px;
-	background-color: orange;
 }
 
 .clearSpacer {
