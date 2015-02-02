@@ -1,0 +1,28 @@
+.container {
+	text-align: center;
+}
+nav {
+	position: fixed;
+	background-color: gray;
+}
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.content {
+	background-color: orange;
+	border: 5px solid red;
+	background-color: pink;
+
+}
+
+.main_section {
+	border: 1px solid black;
+	margin-top: 100px;
+	background-color: orange;
+}
+
+.clearSpacer {
+	height: 80px;
+}
