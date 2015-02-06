@@ -7,7 +7,7 @@
 <body>
 	<div class="container">
 		<header>
-			<h1>Message Therapist Name</h1>
+			<h1>Massage Therapist Name</h1>
 			<nav>
 				<ul>
 					<li><a href="#about">About</a></li>
@@ -27,22 +27,94 @@
 			<div id="contact" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Contact</h1>
+				<form id="responseForm" method="post" action="http:form-echo.herokuapp.com/form-echo">
+						<table class="_field_table">
+							<tr>
+								<td width="29%">Name: </td>
+								<td width="71%">
+									<input type="text" name="customer_name" size="40" />
+								</td>
+							</tr>
+							<tr>
+								<td width="29%">Email Address:</td>
+								<td width="71%">
+									<input type="text" name="recipient" size="40" />
+									</td>
+							</tr>
+							<tr>
+								<td width="29%">Primary Phone: </td>
+								<td width="71%">
+									<input type="text" name="customer_phone" size="40" />
+								</td>
+							</tr>
+							<tr>
+								<td width="29%">Mailing Address: </td>
+								<td width="71%">
+									<input type="text" name="mailing_address" size="40" />
+								</td>
+							</tr>
+							<tr>
+								<td width="29%">Message: </td>
+								<td width="71%">
+									<textarea type="text" name="customer_message" rows="10" cols="30">  </textarea>
+								</td> 
+							</tr>
+						</table>
+			<input class="theButton" name="size" type="submit" />
 			</section>
 			<div id="location" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Location</h1>
+				<iframe 
+					width="600"
+					height="450"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2794.8606841823553!2d-122.689084!3d45.53300900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a021ccd3b81%3A0x82eb37e909f3814e!2sPortland+Code+School!5e0!3m2!1sen!2sus!4v1423094267697">
+				</iframe>
 			</section>
 			<div id="offerings" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Offerings</h1>
+					<img class="offerings" title="Types" alt="MassageTypes" src="http://www.atouchforyourhealthmassage.com/image/94942845.png"/>
+					<html>
+						<head>
+							<title>Primal Touch Massage Types PDf</title>
+							<script type="text/javascript" src="Primal Touch Massage Types PDf.js"></script>
+							<script type="text/javascript">
+							  window.onload = function (){
+							  	var myPDF = newPrimal Touch Massage Types PDf({url: sample.pdf}).embed();
+							  }
+							</script>
+						</head>
+
+						<body>
+							<p><a href="file://localhost/Users/kellymaloney/Desktop/Primal%20Touch%20Massage%20Types%20PDf.pdf">Click here to download the PDF</a></p>
+						</body>
+					</html>
 			</section>
 			<div id="feedback" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Feedback</h1>
+				<iframe 
+							width="660" 
+							height="850" 
+							frameborder="0"
+							marginheight="0"
+							marginwidth="0"
+							src="https://docs.google.com/forms/d/1jVF8zUm5Kk9PGp7DXUuOX9QTKF6Cl2p79rfi6Axa46E/viewform?embedded=true"> Loading...
+				</iframe>
+			</section>
+			<div id="links" class="clearSpacer">&nbsp;</div>
+			<section class="main_section">
 			</section>
 			<div id="links" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Links</h1>
+					<ul>
+						<li><a href="http://www.massagetherapy.com/home/index.php">Various types of massages</a></li>
+						<li><a href="http://altmedicine.about.com/od/massage/a/massage_types.htm">10 most popular massages</a></li>
+						<li><a href="http://www.amtamassage.org/index.html">Click here to learn about the AMTA</a></li>
+					</ul>
 			</section>
 		</div>
 		<footer>
