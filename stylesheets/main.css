@@ -53,29 +53,17 @@ nav ul li {
 	padding-left: 150px;
 	height: 100px;
 }
-<<<<<<< HEAD
-
-
-
-/*p {
-	text-align: left;
-	padding-left: 200px;
-	padding-right: 200px;
-	font-family: helvetica;
-}*/
-
 =======
-form {
-	align: center;
-	/*padding-left: 200px;
-	padding-right: 200px;*/
+#table_box {
+	margin-left: 25%;
 }
->>>>>>> master
+#responseForm {
+	margin-left: 25%;
+}
 #p_about p {
 	text-align: center;
 	width: 80%;
-	border: 1px solid black;
-	margin-left: 300px;
+	margin-left: 100px;
 }
 .main_section a {
 	color: white;
