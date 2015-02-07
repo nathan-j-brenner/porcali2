@@ -15,10 +15,9 @@ width: 100%;
 }
 h1 {
 	font-family: 'Shadows Into Light', cursive;
-	}
+}
 h2 {
 	font-family: 'Shadows Into Light', cursive;
-
 }
 p {
 	font-family: serif;
@@ -28,8 +27,6 @@ nav {
 	width: 100%;
 	text-align: center;
 	background-color: #8E623D;
-
-
 }
 nav ul li {
 	font-family: 'Shadows Into Light', cursive;
@@ -54,7 +51,6 @@ nav ul li {
 	padding-left: 150px;
 	height: 100px;
 }
-
 #table_box {
 	margin-left: 25%;
 }
@@ -67,7 +63,6 @@ nav ul li {
 	font-size: auto;
 
 	margin-left: 100px;
-
 }
 .main_section a {
 	color: white;
