@@ -34,7 +34,6 @@ nav {
 }
 nav ul li {
 	font-family: 'Shadows Into Light', cursive;
-
 }
 nav ul li a {
 	color: white;
@@ -56,16 +55,15 @@ nav ul li {
 	height: 100px;
 }
 #table_box {
-	margin-left: 25%;
+	margin-left: 0%;
 }
 #responseForm {
-	margin-left: 25%;
+	margin-left: 30%;
 }
 #p_about p {
 	text-align: center;
 	width: 80%;
 	font-size: auto;
-
 	margin-left: 100px;
 }
 .main_section a {
@@ -89,3 +87,4 @@ nav ul li {
 	height: 50px;
 	display: inline;
 }
+
