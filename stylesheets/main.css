@@ -6,7 +6,6 @@ nav {
 	width: 100%;
 	text-align: center;
 	background-color: lightgrey;
-	
 }
 header {
 	position: fixed;
@@ -23,7 +22,6 @@ nav ul li {
 	display: inline;
 	margin: 0 10px;
 }
-
 .content {
 	
 	padding-right: 150px;
@@ -34,17 +32,14 @@ p {
 	padding-left: 200px;
 	padding-right: 200px;
 	font-family: helvetica;
-
 }
-
-
 .main_section {
 	
 	margin-top: 300px;
 }
 
 .clearSpacer {
-	height: 80px;
+	height: 60px;
 }
 
 .social_media {
