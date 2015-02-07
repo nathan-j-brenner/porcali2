@@ -55,9 +55,8 @@ nav ul li {
 	padding-left: 150px;
 	height: 100px;
 }
-
+=======
 #table_box {
-	width: 50%;
 	margin-left: 25%;
 }
 #responseForm {
@@ -90,12 +89,4 @@ nav ul li {
 	width: 50px;
 	height: 50px;
 	display: inline;
-}
-footer {
-}
-
-@media screen and (max-width: 300px) {
-	h1 {
-		font-size: 1em;
-	}
 }
