@@ -56,16 +56,15 @@ nav ul li {
 }
 
 #table_box {
-	margin-left: 25%;
+	margin-left: 0%;
 }
 #responseForm {
-	margin-left: 25%;
+	margin-left: 30%;
 }
 #p_about p {
 	text-align: center;
 	width: 80%;
 	font-size: auto;
-
 	margin-left: 100px;
 
 }
@@ -90,3 +89,4 @@ nav ul li {
 	height: 50px;
 	display: inline;
 }
+
