@@ -8,7 +8,7 @@
 <body>
 	<div class="container">
 		<header>
-			<!-- <a href="#about"> --><img src="Primal-Massage.jpg"></a>
+			<!-- <a href="#about"> --><img src="Primal-Massage.jpg"> <!-- </a> -->
 			<nav>
 				<ul>
 					<li><a href="#about">About</a></li>
@@ -29,28 +29,42 @@
 			<div id="contact" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
 				<h1>Contact</h1>
-					<div id="contact_content">
-					<div class="contact_us">
-						<h2><a href="mailto:nathan.j.brenner@gmail.com">Email</a></h2>
-						<h2><a href="555-5555">555-5555</a></h2>
-					</div>
-<!-- 					<div class="contact_form">
-						<h2>Let us contact You</h2>
-						<form action="http://form-echo.herokuapp.com/form-echo">
-							<div class="field">
-								<label for="name">What's your name?</label>
-								<input type="text"> <br />
-							</div>
-							<div class="field">
-								<label for="email">What's your email address?</label>
-								<input type="text"> <br />
-							</div>
-							<div class="field">
-								<label for="phone">What's your phone number?</label>
-								<input type="text">
-							</div>
-						</form> -->
-					</div>
+				<form id="responseForm" method="post" action="http:form-echo.herokuapp.com/form-echo">
+							<table class="_field_table">
+								<tr>
+									<td width="29%">Name: </td>
+									<td width="71%">
+										<input type="text" name="customer_name" size="40" />
+									</td>
+								</tr>
+								<tr>
+									<td width="29%">Email Address:</td>
+									<td width="71%">
+										<input type="text" name="recipient" size="40" />
+									</td>
+								</tr>
+								<tr>
+									<td width="29%">Primary Phone: </td>
+									<td width="71%">
+										<input type="text" name="customer_phone" size="40" />
+									</td>
+								</tr>
+								<tr>
+									<td width="29%">Mailing Address: </td>
+									<td width="71%">
+										<input type="text" name="mailing_address" size="40" />
+									</td>
+								</tr>
+								<tr>
+									<td width="29%">Message: </td>
+									<td width="71%">
+										<textarea type="text" name="customer_message" rows="10" cols="30">  </textarea>
+									</td> 
+								</tr>
+							</table>
+				</form>
+<input class="theButton" name="size" type="submit" />
+
 			</section>
 			<div id="location" class="clearSpacer">&nbsp;</div>
 			<section class="main_section">
