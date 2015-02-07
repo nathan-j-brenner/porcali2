@@ -55,16 +55,20 @@ nav ul li {
 	padding-left: 150px;
 	height: 100px;
 }
-form {
-	align: left;
-	/*padding-left: 200px;
-	padding-right: 200px;*/
+
+#table_box {
+	width: 50%;
+	margin-left: 25%;
+}
+#responseForm {
+	margin-left: 25%;
 }
 #p_about p {
 	text-align: center;
 	width: 80%;
 	font-size: 2em;
 	margin-left: 300px;
+
 }
 .main_section a {
 	color: white;
